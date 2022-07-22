@@ -1,0 +1,39 @@
+#contenedor{
+    border: 5px;
+    border-style: solid;
+    border-color: black;
+    height: 600px;
+    width: 600px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: auto;
+}
+
+.cuadrado{
+    height: 200px;
+    width: 200px;
+    size: 20px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rojo{
+    background-color: red;
+}
+
+#azul{
+    background-color:blue;
+}
+
+#verde{
+    background-color:green;
+}
+
+p {
+    display: flex;
+    position: relative;
+    font-size: 20px;
+    color: white;
+}
